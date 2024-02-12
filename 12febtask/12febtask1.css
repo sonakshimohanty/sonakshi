@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    background-color: rgb(12, 12, 75);
+    height: 700px;
+    color: white;
+}
+.text{
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.fast{
+    display: flex;
+}
+.srow{
+    margin-left: 80px;
+}
+.trow{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.frow{
+    margin-left: 80px;
+}
+.second{
+    background-color: rgb(18, 18, 125);
+    text-align: center;
+    height: 30px;
+    width: 860px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.third{
+    display: flex;
+}
+h5{
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+li{
+    padding-top: 12px;
+}
+.final{
+    margin-left: 100px;
+    display: flex;
+    margin-top: 20px;
+    font-weight: 200;
+}
+i{
+    padding-left: 10px;
+    font-size: 20px;
+}
