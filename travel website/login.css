@@ -1,0 +1,104 @@
+.logform{
+    height: 850px;
+    width: 600px;
+    background-color: rgb(225, 218, 218);
+    margin-left: 600px;
+}
+h2{
+    margin-top: -800px;
+    margin-left: 790px;
+    font-size: 35px;
+    font-family: "Oswald", sans-serif;
+}
+h3{
+    margin-left: 780px;
+    font-size: 25px;
+}
+.fast input{
+    padding: 7px;
+    border: none;
+    background-color:  rgb(225, 218, 218);
+    width: 300px;
+    height: 30px;
+    margin-left: 755px;
+    font-size: 20px;
+    margin-top: 27px;
+}
+.fast input:hover{
+   border-bottom: 2px solid black;
+   
+}
+.pass{
+    margin-top: 40px;
+}
+.forpass{
+    text-decoration: underline;
+    margin-left: 840px;
+    margin-top: 30px;
+}
+.or{
+    margin-left: 880px;
+    margin-top: 64px;
+}
+.putul{
+    height: 50px;
+    width: 480px;
+    background-color: rgb(8, 0, 0);
+    margin-left: 660px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+.putul1 h3{
+    color: rgb(250, 245, 245);
+    margin-top: -37px;
+    margin-left: 849px;
+}
+.road{
+    height: 50px;
+    width: 480px;
+    background-color: rgb(8, 0, 0);
+    margin-left: 660px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.road1 h3{
+    color: rgb(241, 234, 234);
+    margin-top: -62px;
+    margin-left: 775px;
+}
+.face{
+    height: 50px;
+    width: 480px;
+    background-color: rgb(8, 0, 0);
+    margin-left: 660px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.face1 h3{
+    color: rgb(241, 234, 234);
+    margin-top: -62px;
+    margin-left: 775px;
+}
+.app{
+    height: 50px;
+    width: 480px;
+    background-color: rgb(8, 0, 0);
+    margin-left: 660px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.app1 h3{
+    color: rgb(241, 234, 234);
+    margin-top: -62px;
+    margin-left: 775px;
+}
+.acc{
+    font-size: 18px;
+    margin-left: 777px;
+}
+.signa{
+    text-decoration: underline;
+    font-size: 16px;
+}
+

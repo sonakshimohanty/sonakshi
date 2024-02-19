@@ -1,0 +1,151 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+main{
+    color: white;
+}
+.navtext{
+    color: aliceblue;
+}
+nav{
+    background-color: rgba(5, 5, 44, 0.805);
+    color: aliceblue;
+   
+}
+.nav{
+    height: 50px;
+    width: 1850px;
+    color: black;
+   background-image: linear-gradient(rgba(207, 168, 226, 0.704),rgba(35, 35, 1, 0.096));
+   margin-top: 30px;
+}
+.nav2{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.sona{
+    height: 100px;
+    padding-top: 2px;
+    margin-left: 70px;
+    width: 120px;
+    position: relative;
+}
+.content{
+    display: flex;
+}
+ul{
+    display: flex;
+    margin-left: 300px;
+}
+li{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.search{
+    margin-left: 30px;
+    text-align: center;
+    height: 30px;
+    border-radius: 5%;
+    margin-top: 35px;
+}
+.go-icon{
+    height: 16px;
+    width: 18px;
+    margin-top: 42px;
+}
+.view1{
+  display: flex;
+}
+a{
+    color: aliceblue;
+}
+
+.para1{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.6em;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.view2{
+    display: flex;
+}
+.para2{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.6em;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+.view3{
+    display: flex;
+}
+.para3{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.6em;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.second{
+    height: 500px;
+}
+
+.secpage{
+    height: 500px;
+    width: 700px;
+    background-color: rgb(226, 198, 252);
+    margin-left: 350px;
+    margin-top: 30px;
+}
+.postrelat{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.trdpage{
+    height: 420px;
+    width: 1050px;
+    background-color: rgb(204, 195, 195);
+    margin-left: 350px;
+    box-shadow: 8px 10px 7px rgb(145, 142, 142);
+    margin-top: 70px;
+}
+.mainpost{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+
+.foot{
+    background-color: black;
+    color: white;
+    margin-top: 500px;
+    height: 400px;
+    transform: translateY(-500px);
+   
+}
+.lastfoot{
+    display: flex;
+    line-height: 0px;
+    background-color: black;
+    
+}
+.last1{
+    height: 200px;
+    margin-top: 20px;
+}
+
+

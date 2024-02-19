@@ -1,0 +1,237 @@
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+main{
+    justify-content: space-between;
+    background-image: linear-gradient(rgba(12, 12, 12, 0.451),rgba(30, 29, 29, 0.007)), url("./sahara.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: rgb(237, 232, 232);
+    width: 100%;
+}
+.www h1{
+    font-size: 50px;
+    margin-top: 30px;
+}
+nav{
+    background-color: rgba(9, 9, 176, 0.2);
+    color: aliceblue;
+   
+}
+.search-boc{
+    margin-left: 1200px;
+    margin-top: 10px;
+    height: 20px;
+}
+
+.sona{
+    height: 100px;
+    padding-top: 2px;
+    margin-left: 70px;
+    width: 120px;
+    position: relative;
+}
+.search{
+    margin-left: 30px;
+    text-align: center;
+    height: 30px;
+    border-radius: 5%;
+    margin-top: 35px;
+}
+.content{
+    display: flex;
+}
+ul{
+    display: flex;
+    margin-left: 300px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+li{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+li:hover{
+    
+     text-decoration: underline;
+     color: aquamarine;
+}
+h2{
+    margin-left: 40px;
+}
+.www{
+    text-align: center;
+    margin-top: 200px;
+}
+.hstyl2{
+   margin-left: -15px;
+}
+.hhstyl3{
+    text-align: center;
+     height: 50px;
+     border-radius: 5px;
+     border-color: orange;
+     margin-left: 640px;
+     width: 280px;
+     color: black;
+}
+.hhstyl4{
+    text-align: center;
+     height: 50px;
+     border-radius: 5px;
+     border-color: orange;
+     margin-left: 7px;
+     width: 305px;
+     color: black;
+}
+.go{
+    height: 50px;
+    width: 100px;
+    color: rgb(253, 249, 249);
+    background-color: rgba(163, 100, 5, 0.893);
+    border-radius: 7px;
+    margin-left: 875px;
+    margin-top: 4px;
+    text-align: center;
+    font-size: 39px;
+}
+.go:hover{
+    background-color: rgb(109, 3, 8);
+    transition: 1s;  
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.go-icon{
+    height: 16px;
+    width: 18px;
+    margin-top: 42px;
+}
+.log{
+    margin-left: 1300px;
+    margin-top: -20px;
+}
+.loghov:hover{
+    background-color: rgb(75, 122, 4);
+    transition: 0.5s;  
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.loghov2:hover{
+    background-color: rgb(75, 122, 4);
+    transition: 0.5s;  
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.logoimage{
+    margin-left: 800px;
+    margin-top: 50px;  
+}
+.text1{
+    text-align: center;
+    font-size: 30px;
+}
+.line1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.line2{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+.viewstyl {
+    height: 50px;
+    width: 200px;
+    color: rgb(253, 249, 249);
+    background-color: rgba(51, 32, 3, 0.551);
+    border-radius: 5px;
+    margin-left: 800px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 35px;
+}
+.viewstyl:hover{
+    background-color: rgb(2, 54, 22);
+    transition: 1s;
+    
+}
+.pic h2:hover{
+    background-color: rgb(75, 47, 255);
+    transition: 1s;
+}
+.text2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px; 
+}
+.icon1{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.them{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.second{
+    background-color: bisque;
+    height: 650px;
+}
+.btravel{
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(207, 221, 246);
+}
+.solazy{
+    margin-top: 171px;
+}
+.lazy img{
+    width: 100%;
+}
+.lazy1 img{
+    width: 10%;
+    margin-left: 900px;
+    transform: translateY(-490px);
+    animation-name: rotation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+   
+}
+.lazy2 img{
+    transform: translateY(-950px);
+    margin-left: 30px;
+}
+.lazy3 h2{
+    font-size: 90px;
+    transform: translateY(-890px);
+    margin-left: 20px;
+}
+
+
+.third{
+    background-color: black;
+    color: azure;
+    font-size: 20px;
+    transform: translateY(-595px);
+}
+.last{
+    display: flex;
+    line-height: 0px;
+    background-color: black;
+    height: 400px;
+}
+.licon1{
+    display: flex;
+}
