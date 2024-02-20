@@ -1,0 +1,117 @@
+nav{
+    background-color: #1e1e9d;
+    color: white;
+    height: 140px;
+    display: flex;
+}
+div h2{
+    margin-left: 50px;
+    font-size: 28px;
+}
+div p{
+    margin-left: 50px;
+    /* padding-top: -5px; */
+    transform: translateY(-18px);
+    font-size: 19px;
+}
+.app{
+    margin-left: 920px;
+    margin-top: 40px;
+}
+.atte{
+    margin-top: 10px;
+}
+.now{
+    height: 60px;
+    width: 150px;
+    border-radius: 30px;
+    background-color: #09a5be;
+    color: white;
+    font-size: 20px;
+}
+.now:hover{
+    transition: 1s;  
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.more{
+    height: 60px;
+    width: 150px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.more:hover{
+    transition: 1s;  
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+@media(min-width:300px) and (max-width:500px){
+    nav{
+        height: 190px;
+        flex-direction: column;
+    }
+    .atte{
+        margin-left: -9px;
+        transform: translateY(-15px);
+        font-size: 30px;
+    }
+    .app{
+        margin-left: 50px;
+        transform: translateY(-78px);
+        flex-direction: column;
+    }
+}
+@media(min-width:300px) and (max-width:370px){
+    .now{
+        height: 31px;
+        width: 122px;
+        font-size: 15px;
+    }
+    .more{
+        height: 31px;
+        width: 122px;
+        font-size: 15px;  
+    }
+    .atte h2{
+        font-size: 25px;
+    }
+    .atte p{
+        font-size: 17px;
+    }
+}
+@media(min-width:501px) and (max-width:1000px){
+    nav{
+        flex-direction: column;
+        width: 1286px;
+        height: 480px;
+    }
+    .atte h2{
+        font-size: 80px;
+    }
+    .atte p{
+        font-size: 60px;
+    }
+    .app{
+        margin-left: 325px;
+        transform: translateY(-60px);
+        flex-direction: column;
+    }
+    .atte{
+        margin-left: 60px;
+    }
+    .now{
+        height: 98px;
+        width: 340px;
+        font-size: 50px;
+    }
+    .more{
+        height: 98px;
+        width: 340px;
+        font-size: 50px; 
+    }
+}
+@media(min-width:314px) and (max-width:730px){
+    .app{
+        flex-direction: column;
+    }
+}
