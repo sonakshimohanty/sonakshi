@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    justify-content: space-between;
+    background-image: linear-gradient(rgba(12, 12, 12, 0.451),rgba(30, 29, 29, 0.007)), url("https://img.freepik.com/free-vector/gradient-colorful-abstract-background-illustration_1258-49114.jpg?t=st=1708965365~exp=1708968965~hmac=44df3e3a109a724a301886c8c3974eb2157e42e6ad6d677de05f98fcd733d516&w=1060");
+    background-size: cover;
+    height: 100vh;
+    color: rgb(11, 11, 11);
+    width: 100%;
+}
+.logo{
+    margin-left: 160px;
+    padding-top: 40px;
+}
+ul{
+    display: flex;
+    margin-left: 500px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+li{
+    margin-left: 50px;
+    margin-top: -60px;
+    list-style-type: none;
+}
+.text1 h3{
+    margin-top: 190px;
+    margin-left: 180px;
+    font-family:sans-serif;
+}
+.text1 h1{
+    font-size: 50px;
+    margin-left: 172px;
+    margin-top: 20px;
+    letter-spacing: 5px;
+}
+.text1 p{
+    margin-left: 175px;
+    font-size: 25px;
+    margin-top: 19px;
+}
+.butt{
+    height: 39px;
+    width: 250px;
+    background-color: #578757;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 174px;
+    margin-top: 25px;
+}
+.butt p{
+
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-top: 8px;
+}
+.pic img{
+    margin-left: 520px;
+    height: 800px;
+    margin-top: -365px;
+}
+footer.bbb{
+    background-color: green;
+    color: white;
+    height: 450px;
+    margin-top: 50px;
+}
+.last{
+    display: flex;
+}
+.lastp{
+    margin-left: 120px;
+    padding-top: 50px;
+}
+.lastp h4{
+    font-size: 29px;
+}
+.lastp p{
+    margin-top: 14px;
+    font-size: 22px;
+}
+.last11{
+    margin-left: 170px;
+    padding-top: 50px;
+}
+.last11 h4{
+    font-size: 29px;
+}
+.last11 p{
+    margin-top: 17px;
+    font-size: 20px;
+}
+.last12{
+    margin-left: 170px;
+    padding-top: 50px;
+}
+.last12 h4{
+    font-size: 29px;
+}
+.last12 p{
+    margin-top: 17px;
+    font-size: 20px;
+}
+.last13{
+    margin-left: 340px; 
+    margin-top: 40px;
+    font-size: 25px;
+}
+@media(min-width:300px) and (max-width:500px){
+    section{
+        flex-direction: column;
+        /* width: auto; */
+        height: 940px;
+    }
+    .pic img{
+        height: 230px;
+        width: 300px;
+        margin-top: 60px;
+        margin-left: 80px;
+    }
+   .last{
+    display: block;
+   }
+   footer.bbb{
+    height: 770px;
+   }
+   .text1{
+    margin-left: -110px;
+   }
+   .butt{
+    margin-left: 60px;
+   }
+   .last11{
+    margin-left: 114px;
+   }
+   .last12{
+    margin-left: 114px;
+   }
+   
+}
